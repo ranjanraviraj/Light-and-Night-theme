@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.App.Lilac" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="primaryTextColor">@color/primaryText</item>
+        <item name="buttonNormalColor">@color/buttonNormal</item>
+        <item name="buttonHighlightColor">@color/buttonHighlight</item>
+        <item name="buttonTextColor">@color/buttonText</item>
+    </style>
+
+    <style name="Theme.App.Mint" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/mintColorPrimary</item>
+        <item name="colorPrimaryDark">@color/mintColorPrimaryDark</item>
+        <item name="colorAccent">@color/mintColorAccent</item>
+        <item name="primaryTextColor">@color/mintColorPrimary</item>
+        <item name="buttonNormalColor">@color/mintButtonNormal</item>
+        <item name="buttonHighlightColor">@color/mintButtonHighlight</item>
+        <item name="buttonTextColor">@color/mintButtonText</item>
+        <item name="iconColor">@color/mintColorPrimary</item>
+    </style>
+
+    <style name="Base.Theme.App"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="primaryButtonTheme">@style/Widget.Button.Primary</item>
+        <item name="primaryTextViewTheme">@style/Widget.TextView.Primary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.Button.Primary"
+        parent="Widget.AppCompat.Button">
+        <item name="colorButtonNormal">?attr/buttonNormalColor</item>
+        <item name="colorControlHighlight">?attr/buttonHighlightColor</item>
+        <item name="android:textColor">?attr/buttonTextColor</item>
+    </style>
+
+    <style name="Widget.TextView.Primary"
+        parent="Widget.AppCompat.TextView">
+        <item name="android:background">?attr/buttonTextColor</item>
+        <item name="android:textColor">?attr/primaryTextColor</item>
+    </style>
+
+
+    <style name="Theme.MyApplication.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

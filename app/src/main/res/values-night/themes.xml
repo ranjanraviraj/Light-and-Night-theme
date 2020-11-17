@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.App.Lilac" parent="Base.Theme.App">
+        <item name="colorPrimary">@color/mintColorPrimary</item>
+        <item name="colorPrimaryDark">@color/mintColorPrimaryDark</item>
+        <item name="colorAccent">@color/mintColorAccent</item>
+        <item name="primaryTextColor">@color/mintColorPrimary</item>
+        <item name="buttonNormalColor">@color/mintButtonNormal</item>
+        <item name="buttonHighlightColor">@color/mintButtonHighlight</item>
+        <item name="buttonTextColor">@color/mintButtonText</item>
+        <item name="iconColor">@color/mintColorPrimary</item>
+    </style>
+</resources>
