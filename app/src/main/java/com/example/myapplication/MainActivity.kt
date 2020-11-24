@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTheme(R.style.Theme_App_Lilac)
         setContentView(R.layout.activity_main)
         setSupportActionBar(findViewById(R.id.toolbar))
 
@@ -23,8 +22,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        setTheme(R.style.Theme_App_Lilac)
-        recreate()
+        //setTheme(R.style.Theme_App_Lilac)
+        //recreate()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

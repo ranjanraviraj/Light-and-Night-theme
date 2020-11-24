@@ -21,8 +21,7 @@
         <item name="iconColor">@color/mintColorPrimary</item>
     </style>
 
-    <style name="Base.Theme.App"
-        parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="Base.Theme.App"  parent="Theme.MaterialComponents.DayNight">
         <item name="primaryButtonTheme">@style/Widget.Button.Primary</item>
         <item name="primaryTextViewTheme">@style/Widget.TextView.Primary</item>
         <item name="windowActionBar">false</item>
